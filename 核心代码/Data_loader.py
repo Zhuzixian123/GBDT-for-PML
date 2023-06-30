@@ -49,8 +49,6 @@ class data_loader:
             self.config=config
             self.up_self=up_self
             self.data_path = self.config.base_params['data_path']
-            self.input_path = self.config.base_params['input_path']
-            self.output_path = self.config.base_params['output_path']
 
         def run(self,init_printer):
             init_printer.name_bars[self.info['名称（name）']].open_it()
